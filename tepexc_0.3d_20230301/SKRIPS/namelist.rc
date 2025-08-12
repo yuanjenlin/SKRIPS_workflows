@@ -1,0 +1,29 @@
+## Level 0 = no debug
+## Level 1 = debug
+DebugLevel:     0
+
+## mode 1 = sequential mode
+## mode 2 = concurrent mode
+coupleMode:     1
+cpuOCN:         4
+cpuATM:         4
+
+
+StartYear:      2023
+StartMonth:     03
+StartDay:       05
+StartHour:      00
+StartMinute:    00
+StartSecond:    00
+
+StopYear:        2023
+StopMonth:       03
+StopDay:         09
+StopHour:        00
+StopMinute:      00
+StopSecond:      00
+
+EsmStepSeconds: 240
+ATMStepSeconds: 120
+OCNStepSeconds: 240
+WAVStepSeconds: 240

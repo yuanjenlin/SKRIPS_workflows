@@ -1,0 +1,35 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 1,
+ start_date = '2023-03-05_00:00:00',
+ end_date   = '2023-03-09_00:00:00',
+ interval_seconds = 21600
+/
+
+&geogrid
+ parent_id         =   1,
+ parent_grid_ratio =   1,
+ i_parent_start    =   1,
+ j_parent_start    =   1,
+ e_we              = 129,
+ e_sn              =  33,
+ geog_data_res = 'default',
+ dx = 0.3125,
+ dy = 0.3125,
+ map_proj  = 'lat-lon',
+ ref_lat   =    0.0,
+ ref_lon   =  180.0,
+ pole_lat  =   90.0,
+ pole_lon  =    0.0,
+ stand_lon =    0.0,
+ geog_data_path = '/projects/yuli3660/model_input/wps-geog/'
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'FILE',
+/
+
+&metgrid
+ fg_name = 'FILE'
+/
