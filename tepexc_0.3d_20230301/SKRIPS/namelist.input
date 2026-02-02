@@ -22,9 +22,10 @@
  auxinput4_interval                  = 360,
  auxinput4_end_d                     = 999,
  io_form_auxinput4                   = 2,
- 
+
  override_restart_timers             = .true.,
  write_hist_at_0h_rst                = .true.,
+
  auxinput5_inname                    = 'wrfin_esmf',
  auxinput5_interval_s                = 120,
  auxinput5_end_d                     = 999,
@@ -92,7 +93,7 @@
  /
 
  &dynamics
- hybrid_opt                          = 2, 
+ hybrid_opt                          = 2,
  w_damping                           = 0,
  diff_opt                            = 2,
  km_opt                              = 4,
